@@ -5,37 +5,61 @@
     <style>
         body {
             background-color: #eee;
-            font-size: 24pt;
-            font-family: monospace;
+            font-size: 14pt;
+            font-family: 'Input Mono', 'Courier New', Courier, monospace;
+            background-image: url(kidmo3.gif);
+            background-size: cover;
+            background-blend-mode: difference;
+            padding: 0;
+            margin: 0;
+        }
+        h1,h3 {
+            color: darkred;
+        }
+        p, li {
+            color: darkslategray;
+        }
+        li {
+            font-weight: bold;
+        }
+        a {
+            color: red;
+            font-weight: bold;
+        }
+        #main {
+            background-color: rgba(255,255,255,0.8);
             padding: 2em;
+            margin: 2em;
+            color: white;
+            filter: drop-shadow(0 0 0.75rem darkslategray);   
         }
     </style>
 </head>
 
 <body>
-    <h1>Stichting Statebox</h1>
+    <div id="main">
+        <h1>Stichting Statebox</h1>
 
-    <h3>Mission</h3>
-    <p>
-        Our mission is to maintain and support the <a href="https://statebox.org">Statebox</a> programming language.
-    </p>
+        <p>
+            Our mission is to maintain and support the development <a href="https://statebox.org">Statebox</a> programming language.
+        </p>
+        <p>
+            We were founded on <code>2019/01/17</code> and registered at the Chamber of Commerce under number <a href="https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=737357950000"><code>73735795</code></a>.
+        </p>
+    
+    
+        <h3>Board</h3>
+        <ul>
+            <li>Jelle Herold</li>
+            <li>Emilia Gheorghe</li>
+            <li>Fabrizio Genovese</li>
+            <li>Erik Post</li>
+        </ul>        
 
-    <p>
-        We are registered at the Chamber of Commerce under number <a href="https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=737357950000"><code>73735795</code></a>.
-    </p>
-    <p>
-        This not-for-profit was founded on <code>2019-01-17</code>.
-    </p>
-
-
-    <h3>Board</h3>
-    <ul>
-        <li>Jelle Herold</li>
-        <li>Emilia Gheorghe</li>
-        <li>Fabrizio Genovese</li>
-        <li>Erik Post</li>
-    </ul>
-
+        <p style="font-size: 0.5em">
+            background animation by <a href="https://twitter.com/KidMograph">kidmograph</a>
+        </p>
+    </div>
 </body>
 
 </html>
